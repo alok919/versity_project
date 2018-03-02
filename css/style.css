@@ -59,19 +59,6 @@ body{
 
 /*-------- End_navbar --------*/
 
-.heading{
-    background-color: #00254E;
-    color: #DBE0E6;
-    height: 70px;
-}
-
-.heading h4{
-    margin-top:19px;
-    text-align: center;
-    padding:  19px;
-    font-size: 21px;
-}
-
 
 
 
@@ -125,7 +112,7 @@ body{
     right: 10px;
     position: fixed;
     font-size: 46px;
-    color: darkslateblue;
+    color: red;
     cursor: pointer;
 
 }
@@ -168,26 +155,7 @@ body{
     color: #FFFFFF
 }
 
-        
-        /*----------Start join_us CSS ----------*/
-
-
-.join_us{
-    background: red;
-    color: #FFFFFF;
-}
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
                  /*----------Start footer CSS ----------*/
@@ -219,6 +187,72 @@ body{
     font-family: system-ui;
 }
 
+
+/*------------------Start Common Pages pages---*/
+
+.commom_pages{
+    height: 67px;
+    background: #00254E;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.commom_pages h3 {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 17px;
+    color: #FFFFFF;
+}
+
+.bodypage{
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    color: #323439;
+    box-shadow: 9px 7px 5px -4px #333;
+    margin-bottom: 20px;
+    /*height: 500px;*/
+}
+
+/*------------------End Common Pages pages---*/
+
+
+/*------------------start Alummi pages---*/
+.about{
+
+    
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    color: #323439;
+    box-shadow: 9px 7px 5px -4px #333;
+    margin-bottom: 20px;
+}
+
+.mycol{
+   background:#00254E;
+   color: #fff; 
+   margin-bottom:30px;
+}
+
+.pages_para{
+    
+    background: #F0F0F0;
+    
+}
+.pages_para p{
+    color: #00254D;
+    font-size: 17px;
+    /*font-weight: 200;*/
+    padding: 12px;
+    line-height: 31px;
+}
+
+
+/*---Login Pages--*/
+
+.myform{
+    padding-top: 40px;
+    padding-bottom:40px;
+    margin-top: 20px;
+}
 
 
 
